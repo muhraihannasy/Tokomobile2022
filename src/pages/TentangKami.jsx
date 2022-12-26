@@ -48,7 +48,7 @@ const TentangKami = () => {
         </div>
       </section>
 
-      <section class="bg-[#F5F5F5]">
+      <section class="bg-[#F5F5F5] mb-[6rem]">
         <div className="container py-10 mt-[3rem] text-center">
           <h2 className="font-medium text-[18px] text-primary mb-[0.8rem]">
             Owner
@@ -78,7 +78,7 @@ const TentangKami = () => {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className="container mt-[2rem] text-center">
           <h2 className="font-medium text-[18px] text-primary mb-[0.8rem]">
             Tim
@@ -154,7 +154,7 @@ const TentangKami = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 };

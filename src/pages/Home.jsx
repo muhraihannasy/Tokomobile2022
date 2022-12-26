@@ -288,12 +288,12 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div className="container mt-[5rem] mb-[5rem]">
+        {/* <div className="container mt-[5rem] mb-[5rem]">
           <h3 className="text-primary_dark text-center mb-[2rem] ">
             Telah diliput oleh
           </h3>
           <ImageGroup items={listData5} />
-        </div>
+        </div> */}
       </section>
     </main>
   );

@@ -52,6 +52,10 @@ const CardPricing = ({ items }) => {
             </li>
             <li className="flex items-center gap-[10px] font-regular mb-[8px]">
               <img src={correctIcn} alt="" className="w-[20px]" />
+              <p className="text-[14px]">Laporan </p>
+            </li>
+            <li className="flex items-center gap-[10px] font-regular mb-[8px]">
+              <img src={correctIcn} alt="" className="w-[20px]" />
               <p className="text-[14px]">
                 Aktivasi payment gateway Xendit dan Midtrans
               </p>
@@ -192,8 +196,8 @@ const CardPricing = ({ items }) => {
             {" "}
             Hubungi kami
           </h2>
-          <button className="bg-transparent border border-white text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px]">
-            Berlangganan Bisnis
+          <button className="bg-transparent border border-white text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px] whitespace-nowrap">
+            Berlangganan Enterprise
           </button>
         </div>
       </div>

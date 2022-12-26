@@ -1,23 +1,30 @@
-import React from 'react'
+import React from "react";
 
 const SyaratKetentuan = () => {
   return (
     <main>
-        <section>
-            <div className="container mt-[2rem]">
-                <h2 className='text-center'>Syarat dan Ketentuan</h2>
-                <p className='mt-[1rem] text-[14px]'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur numquam delectus accusantium reiciendis laudantium excepturi corrupti dolorum asperiores iusto labore amet dolores in laboriosam consectetur debitis explicabo, corporis animi rerum.
-                </p>
+      <section>
+        <div className="container mt-[2rem] py-[5rem]">
+          <h2 className="text-center">Syarat dan Ketentuan</h2>
+          <p className="mt-[1rem] text-[14px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            numquam delectus accusantium reiciendis laudantium excepturi
+            corrupti dolorum asperiores iusto labore amet dolores in laboriosam
+            consectetur debitis explicabo, corporis animi rerum.
+          </p>
 
-                <p className='mt-[1rem] text-[14px]'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur numquam delectus accusantium reiciendis laudantium excepturi corrupti dolorum asperiores iusto labore amet dolores in laboriosam consectetur debitis explicabo, corporis animi rerum.
-                    ti dolorum asperiores iusto labore amet dolores in laboriosam consectetur debitis explicabo, corporis animi rerum.
-                </p>
-            </div>
-        </section>
+          <p className="mt-[1rem] text-[14px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            numquam delectus accusantium reiciendis laudantium excepturi
+            corrupti dolorum asperiores iusto labore amet dolores in laboriosam
+            consectetur debitis explicabo, corporis animi rerum. ti dolorum
+            asperiores iusto labore amet dolores in laboriosam consectetur
+            debitis explicabo, corporis animi rerum.
+          </p>
+        </div>
+      </section>
     </main>
-  )
-}
+  );
+};
 
-export default SyaratKetentuan
+export default SyaratKetentuan;
