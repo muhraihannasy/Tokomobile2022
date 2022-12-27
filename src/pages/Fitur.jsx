@@ -299,10 +299,10 @@ const Fitur = () => {
                   Kelola Pesanan
                 </h3>
                 <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
+                  Tokomobile memiliki sistem terintegrasi yang dapat membantu
+                  serta memudahkan dalam mengelola pesanan dengan cepat dan
+                  lebih efisien untuk pesanan yang masuk. Semua pesanan dapat
+                  anda lacak dan atur dengan baik.
                 </p>
               </div>
             </div>
@@ -315,10 +315,92 @@ const Fitur = () => {
                   Katalog Multi Variasi
                 </h3>
                 <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
+                  Anda dapat membuat sebuah daftar atau koleksi dari beberapa
+                  variasi atau opsi yang tersedia dari suatu produk atau
+                  layanan. Contoh katalog multi variasi dapat berupa daftar
+                  warna, ukuran, atau fitur yang tersedia dari suatu produk,
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={dashboardiIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Dashboard Informatif
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Tokomobile menyediakan tampilan atau panel yang menampilkan
+                  data dan informasi secara sistematis dan terorganisir.
+                  Dashboard ini bertujuan untuk memberikan pandangan cepat dan
+                  mudah dicerna tentang kondisi atau situasi penjualan terkini.
+                  Kami menyajikan data dalam bentuk grafik atau diagram yang
+                  mudah dipahami dan menampilkan informasi yang penting dan
+                  relevan untuk membantu pengambilan keputusan.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={trackIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Multi payment
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Multi Payment adalah fitur yang memungkinkan pelanggan untuk
+                  membayar dengan lebih dari satu metode pembayaran dalam satu
+                  transaksi. Fitur multi payment sangat berguna bagi pelanggan
+                  karena memungkinkan mereka untuk membayar dengan cara yang
+                  paling nyaman bagi mereka. Selain itu, fitur ini juga
+                  bermanfaat bagi penjual karena dapat meningkatkan tingkat
+                  pembayaran dan mengurangi risiko tidak terbayarnya transaksi.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={challengesIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Auto Cancel
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Fitur Auto Cancel / Pembatalan otomatis pesanan adalah proses
+                  yang menghapus atau membatalkan pesanan secara otomatis jika
+                  terjadi kondisi tertentu. Contohnya, pembatalan otomatis
+                  pesanan dapat dilakukan jika pesanan tersebut tidak dapat
+                  diproses dalam waktu tertentu, jika terdapat kesalahan dalam
+                  pesanan, atau jika stok barang yang dipesan habis. Pembatalan
+                  otomatis pesanan dapat sangat berguna dalam mengelola pesanan
+                  secara efisien dan memastikan bahwa pelanggan tidak menunggu
+                  terlalu lama untuk pesanan yang tidak dapat dipenuhi.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={teamIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Integrasi Pengiriman
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Integrasi biaya pengiriman ekspedisi Indonesia adalah proses
+                  menghubungkan sistem pengiriman ekspedisi dengan sistem
+                  informasi atau aplikasi yang digunakan oleh tokomobile. Dengan
+                  integrasi biaya pengiriman ekspedisi, Anda dapat dengan mudah
+                  mengetahui harga pengiriman yang ditawarkan oleh ekspedisi,
+                  sesuai dengan lokasi pengiriman, jenis barang yang dikirim,
+                  dan jenis layanan yang dipilih. Dan menampilan informasi
+                  terkait biaya pengiriman, waktu pengiriman, dan status
+                  pengiriman barang.
                 </p>
               </div>
             </div>
@@ -331,42 +413,10 @@ const Fitur = () => {
                   Laporan Komprehensif
                 </h3>
                 <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={dashboardiIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Dashboard Informatif
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={trackIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Track Your Workout
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
+                  Tokomobile menyediakan laporan dan informasi yang lengkap dan
+                  detail. Pada Laporan berisi data yang akurat dan terperinci
+                  tentang penjualan meliputi informasi tentang produk yang
+                  paling laris dijual serta waktu yang dapat di tentukan.
                 </p>
               </div>
             </div>
@@ -376,45 +426,14 @@ const Fitur = () => {
               </div>
               <div className="flex-1">
                 <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Video Tutorials
+                  Multi Pengguna
                 </h3>
                 <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={challengesIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  30-day Challenges
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={teamIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Our Team
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae voluptatum velit illo sequi, vel vero eum accusamus
-                  quas repudiandae ullam eveniet aut omnis culpa, tenetur animi,
-                  cum deleniti. Veniam, totam?
+                  Fitur multi pengguna adalah sebuah sistem atau program yang
+                  dapat digunakan oleh banyak orang secara bersamaan. Sistem
+                  multi pengguna dapat menjadi sangat efisien karena dapat
+                  digunakan oleh banyak orang secara bersamaan. Anda dapat
+                  memasukan karyawan atau admin untuk mengelola toko Anda
                 </p>
               </div>
             </div>
