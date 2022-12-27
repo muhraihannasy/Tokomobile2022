@@ -1,8 +1,12 @@
 import React from "react";
+import FloatWa from "../components/FloatWa";
 
 const KebijakanPrivasi = () => {
   return (
     <main>
+      {/* Floating Whatsapp */}
+      <FloatWa />
+
       <section>
         <div className="container mt-[2rem] py-[5rem]">
           <div className="mb-[1.5rem]">

@@ -33,6 +33,7 @@ import market7 from "../assets/images/marketplace/market7.png";
 // Components
 import Button from "../components/Button";
 import ImageGroup from "../components/ImageGroup";
+import FloatWa from "../components/FloatWa";
 
 const Fitur = () => {
   const listData1 = [
@@ -46,6 +47,9 @@ const Fitur = () => {
   ];
   return (
     <main>
+      {/* Floating Whatsapp */}
+      <FloatWa />
+
       <section>
         <div className="container flex lg:flex-row flex-col flex-wrap lg:gap-10 gap-3 py-[2rem]">
           <div className="xl:pl-[6rem] text-[#666666] ">

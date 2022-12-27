@@ -4,6 +4,7 @@ import CardPricing from "../components/CardPricing";
 import correctIcn from "../assets/images/icon/correct.png";
 import closeIcn from "../assets/images/icon/reject.png";
 import Button from "../components/Button";
+import FloatWa from "../components/FloatWa";
 
 const Harga = () => {
   const [starterDetail, setStarterDetail] = useState(false);
@@ -15,6 +16,9 @@ const Harga = () => {
   }, [starterDetail]);
   return (
     <main>
+      {/* Floating Whatsapp */}
+      <FloatWa />
+
       <section>
         <div className="container mt-[2rem]">
           <h2 className="text-primary font-medium text-[2rem] text-center mb-[5rem]">

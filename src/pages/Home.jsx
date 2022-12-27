@@ -27,6 +27,7 @@ import liputan7 from "../assets/images/liputan/image12.png";
 // Components
 import CardPricing from "../components/CardPricing";
 import ImageGroup from "../components/ImageGroup";
+import FloatWa from "../components/FloatWa";
 
 const Home = () => {
   const listData1 = [
@@ -163,6 +164,9 @@ const Home = () => {
 
   return (
     <main>
+      {/* Floating Whatsapp */}
+      <FloatWa />
+
       <section className="text-white lg:h-[20rem] h-[40rem]">
         <div className="bg-primary pb-[2rem] lg:h-full h-[30rem]">
           <div className="max-w-5xl mx-auto px-8 flex lg:flex-row flex-col justify-between relative">

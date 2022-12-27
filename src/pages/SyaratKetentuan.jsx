@@ -1,8 +1,12 @@
 import React from "react";
+import FloatWa from "../components/FloatWa";
 
 const SyaratKetentuan = () => {
   return (
     <main>
+      {/* Floating Whatsapp */}
+      <FloatWa />
+
       <section>
         <div className="container mt-[2rem] py-[5rem]">
           <h2 className="text-center font-semibold text-[1.5rem] mb-[1.5rem]">

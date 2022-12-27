@@ -9,10 +9,14 @@ import facebook from "../assets/images/icon/facebook.png";
 
 // Components
 import Button from "../components/Button";
+import FloatWa from "../components/FloatWa";
 
 const TentangKami = () => {
   return (
     <main>
+      {/* Floating Whatsapp */}
+      <FloatWa />
+
       <section
         className="lg:h-[563px] flex items-center justify-center relative before:absolute before:left-0 before:top-0 before:bg-black before:opacity-[56%] z-[9]  before:z-[-1] before:w-full before:lg:h-[563px] before:h-full"
         style={{
