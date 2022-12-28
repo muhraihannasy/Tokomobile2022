@@ -63,12 +63,12 @@ const Header = () => {
           </ul>
         </nav>
 
-        <Link
-          to="/login"
+        <a
+          href="https://dashboard.tokomobile.com/login"
           className="bg-secondary py-[0.3rem] text-[0.8rem] px-6 rounded-[0.2rem]"
         >
           Login
-        </Link>
+        </a>
       </div>
     </header>
   );

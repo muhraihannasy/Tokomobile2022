@@ -1,4 +1,5 @@
-import React from "react";
+import {MdPayments} from "react-icons/md"
+import {TbTruckDelivery} from  "react-icons/tb";
 
 // Images
 import device2Icn from "../assets/images/icon/devices2.png";
@@ -60,9 +61,12 @@ const Fitur = () => {
               Kelola bisnis anti ribet menggunakan aplikasi dalam satu genggaman
               tangan.
             </p>
-            <Button color="white" bg="secondary">
+            <a
+              href="https://dashboard.tokomobile.com/register"
+              className="font-bold  py-[0.5rem] text-[0.8rem] px-6 rounded-[0.2rem] text-center w-max bg-secondary text-white"
+            >
               Buat Toko Sekarang
-            </Button>
+            </a>
           </div>
 
           <div className="lg:w-[50%] w-full flex lg:flex-wrap lg:justify-center items-center gap-4 text-white xl:translate-y-[3rem] lg:overflow-x-auto overflow-x-scroll py-6">
@@ -296,6 +300,99 @@ const Fitur = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 lg:mt-[2rem] gap-6">
             <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
               <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={dashboardiIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Dashboard
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Tokomobile menyediakan tampilan atau panel yang menampilkan
+                  data dan informasi secara sistematis dan terorganisir.
+                  Dashboard ini bertujuan untuk memberikan pandangan cepat dan
+                  mudah dicerna tentang kondisi atau situasi penjualan terkini.
+                  Kami menyajikan data dalam bentuk grafik atau diagram yang
+                  mudah dipahami dan menampilkan informasi yang penting dan
+                  relevan untuk membantu pengambilan keputusan.
+                </p>
+              </div>
+            </div>
+            
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={katalogIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Management Produk
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Anda dapat membuat sebuah daftar atau koleksi dari beberapa
+                  variasi atau opsi yang tersedia dari suatu produk atau
+                  layanan. Contoh katalog multi variasi dapat berupa daftar
+                  warna, ukuran, atau fitur yang tersedia dari suatu produk,
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                {/* <img src={teamIcn} alt="" className="w-[25px]" /> */}
+                 <TbTruckDelivery className="text-[#51b08e] text-[2rem]" />
+
+                
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Proses Pengiriman
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Integrasi biaya pengiriman ekspedisi Indonesia adalah proses
+                  menghubungkan sistem pengiriman ekspedisi dengan sistem
+                  informasi atau aplikasi yang digunakan oleh tokomobile. Dengan
+                  integrasi biaya pengiriman ekspedisi, Anda dapat dengan mudah
+                  mengetahui harga pengiriman yang ditawarkan oleh ekspedisi,
+                  sesuai dengan lokasi pengiriman, jenis barang yang dikirim,
+                  dan jenis layanan yang dipilih. Dan menampilan informasi
+                  terkait biaya pengiriman, waktu pengiriman, dan status
+                  pengiriman barang.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={reportkIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">
+                  Analysis Report
+                </h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Tokomobile menyediakan laporan dan informasi yang lengkap dan
+                  detail. Pada Laporan berisi data yang akurat dan terperinci
+                  tentang penjualan meliputi informasi tentang produk yang
+                  paling laris dijual serta waktu yang dapat di tentukan.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
+                <img src={teamIcn} alt="" className="w-[25px]" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-[14px] lg:text-[20px] font-medium">User</h3>
+                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
+                  Fitur multi pengguna adalah sebuah sistem atau program yang
+                  dapat digunakan oleh banyak orang secara bersamaan. Sistem
+                  multi pengguna dapat menjadi sangat efisien karena dapat
+                  digunakan oleh banyak orang secara bersamaan. Anda dapat
+                  memasukan karyawan atau admin untuk mengelola toko Anda
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
+              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
                 <img src={kelolaIcn} alt="" className="w-[25px]" />
               </div>
               <div className="flex-1">
@@ -312,43 +409,9 @@ const Fitur = () => {
             </div>
             <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
               <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={katalogIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Katalog Multi Variasi
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Anda dapat membuat sebuah daftar atau koleksi dari beberapa
-                  variasi atau opsi yang tersedia dari suatu produk atau
-                  layanan. Contoh katalog multi variasi dapat berupa daftar
-                  warna, ukuran, atau fitur yang tersedia dari suatu produk,
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={dashboardiIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Dashboard Informatif
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Tokomobile menyediakan tampilan atau panel yang menampilkan
-                  data dan informasi secara sistematis dan terorganisir.
-                  Dashboard ini bertujuan untuk memberikan pandangan cepat dan
-                  mudah dicerna tentang kondisi atau situasi penjualan terkini.
-                  Kami menyajikan data dalam bentuk grafik atau diagram yang
-                  mudah dipahami dan menampilkan informasi yang penting dan
-                  relevan untuk membantu pengambilan keputusan.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={trackIcn} alt="" className="w-[25px]" />
+                {/* <img src={trackIcn} alt="" className="w-[25px]" />
+                 */}
+                 <MdPayments className="text-[#51b08e] text-[2rem]" />
               </div>
               <div className="flex-1">
                 <h3 className="text-[14px] lg:text-[20px] font-medium">
@@ -384,60 +447,6 @@ const Fitur = () => {
                   otomatis pesanan dapat sangat berguna dalam mengelola pesanan
                   secara efisien dan memastikan bahwa pelanggan tidak menunggu
                   terlalu lama untuk pesanan yang tidak dapat dipenuhi.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={teamIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Integrasi Pengiriman
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Integrasi biaya pengiriman ekspedisi Indonesia adalah proses
-                  menghubungkan sistem pengiriman ekspedisi dengan sistem
-                  informasi atau aplikasi yang digunakan oleh tokomobile. Dengan
-                  integrasi biaya pengiriman ekspedisi, Anda dapat dengan mudah
-                  mengetahui harga pengiriman yang ditawarkan oleh ekspedisi,
-                  sesuai dengan lokasi pengiriman, jenis barang yang dikirim,
-                  dan jenis layanan yang dipilih. Dan menampilan informasi
-                  terkait biaya pengiriman, waktu pengiriman, dan status
-                  pengiriman barang.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={reportkIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Laporan Komprehensif
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Tokomobile menyediakan laporan dan informasi yang lengkap dan
-                  detail. Pada Laporan berisi data yang akurat dan terperinci
-                  tentang penjualan meliputi informasi tentang produk yang
-                  paling laris dijual serta waktu yang dapat di tentukan.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start px-4 py-3 gap-4 bg-[#F5F5F5] rounded-lg pb-[2rem]">
-              <div className="bg-[#D2FAEB] flex items-center justify-center w-[61px] h-[61px] flex-2 rounded-lg">
-                <img src={youtubeIcn} alt="" className="w-[25px]" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-[14px] lg:text-[20px] font-medium">
-                  Multi Pengguna
-                </h3>
-                <p className="text-[12px] lg:text-[1rem] mt-[0.2rem]">
-                  Fitur multi pengguna adalah sebuah sistem atau program yang
-                  dapat digunakan oleh banyak orang secara bersamaan. Sistem
-                  multi pengguna dapat menjadi sangat efisien karena dapat
-                  digunakan oleh banyak orang secara bersamaan. Anda dapat
-                  memasukan karyawan atau admin untuk mengelola toko Anda
                 </p>
               </div>
             </div>

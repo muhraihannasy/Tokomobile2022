@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // Icon
 import correctIcn from "../assets/images/icon/correct.png";
 import closeIcn from "../assets/images/icon/reject.png";
@@ -83,9 +84,12 @@ const CardPricing = ({ items }) => {
             <span className="text-red-400"> (hemat 2 bulan)</span>
           </p>
 
-          <button className="bg-[#666666] text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px]">
+          <a
+            href="http://wa.me/6285157220258"
+            className="bg-[#666666] text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px]"
+          >
             Berlangganan Starter
-          </button>
+          </a>
         </div>
       </div>
       <div className="relative bg-white shadow-lg rounded-md px-[2rem] pb-[1.5rem] w-[320px]   lg:h-[540px]">
@@ -145,9 +149,12 @@ const CardPricing = ({ items }) => {
             <span className="text-red-400"> (hemat 2 bulan)</span>
           </p>
 
-          <button className="bg-primary_dark text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px]">
+          <a
+            href="http://wa.me/6285157220258"
+            className="bg-primary_dark text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px]"
+          >
             Berlangganan Bisnis
-          </button>
+          </a>
         </div>
       </div>
       <div className="relative bg-[#EEC04F] rounded-md px-[2rem] pb-[1.5rem] w-[320px] h-max">
@@ -196,9 +203,12 @@ const CardPricing = ({ items }) => {
             {" "}
             Hubungi kami
           </h2>
-          <button className="bg-transparent border border-white text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px] whitespace-nowrap">
+          <a
+            href="http://wa.me/6285157220258"
+            className="bg-transparent border border-white text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px] whitespace-nowrap"
+          >
             Berlangganan Enterprise
-          </button>
+          </a>
         </div>
       </div>
     </div>

@@ -74,9 +74,12 @@ const TentangKami = () => {
                 berfokus pada layanan web dan pengembangan aplikasi, layanan
                 cloud, implementasi ERP, dan layanan berbasis digital lainnya.
               </p>
-              <Button path="" bg="secondary" color="white">
+              <a
+                href="https://novatama.co.id/"
+                className="font-bold bg-secondary text-white  py-[0.5rem] text-[0.8rem] px-6 rounded-[0.2rem] text-center w-max"
+              >
                 Lebih Tahu Tentang Kami
-              </Button>
+              </a>
             </div>
           </div>
         </div>
