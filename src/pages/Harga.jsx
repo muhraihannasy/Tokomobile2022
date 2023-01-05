@@ -115,7 +115,7 @@ const Harga = () => {
               <div className="bg-[#F5F5F5] px-4 py-6 rounded-md mt-[1rem] ">
                 <ul className="text-[1rem] flex flex-col gap-6 ">
                   <li className="flex items-center justify-center text-center h-[2rem]">
-                    Rp199.000
+                    Rp. 99.000
                   </li>
                   <li className="flex items-center justify-center text-center h-[2rem]">
                     Tak terbatas
@@ -226,7 +226,7 @@ const Harga = () => {
               <div className="bg-[#F5F5F5] px-4 py-6 rounded-md mt-[1rem]">
                 <ul className="text-[1rem] flex flex-col gap-6 ">
                   <li className="flex items-center justify-center text-center h-[2rem]">
-                    Rp229.000
+                    Rp. 229.000
                   </li>
                   <li className="flex items-center justify-center text-center h-[2rem]">
                     Tak terbatas
@@ -350,8 +350,7 @@ const Harga = () => {
               <div className="bg-[#F5F5F5] px-4 py-6 rounded-md mt-[1rem]">
                 <ul className="text-[1rem] flex flex-col gap-6 ">
                   <li className="flex items-center flex-col justify-center text-center h-[2rem]">
-                    <span className="text-red-400">Comming Soon</span>
-                    Hubungi Kami
+                    Rp. 699.000
                   </li>
                   <li className="flex items-center justify-center text-center h-[2rem]">
                     Tak terbatas

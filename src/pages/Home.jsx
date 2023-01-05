@@ -151,7 +151,7 @@ const Home = () => {
     },
   ];
 
-  const listData4 = [partner1, partner2, partner3, partner4];
+  const listData4 = [partner2, partner3, partner4];
   const listData5 = [
     liputan1,
     liputan2,

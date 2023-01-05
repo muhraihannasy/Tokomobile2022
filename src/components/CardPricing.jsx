@@ -157,7 +157,7 @@ const CardPricing = ({ items }) => {
           </a>
         </div>
       </div>
-      <div className="relative bg-[#EEC04F] rounded-md px-[2rem] pb-[1.5rem] w-[320px] h-max">
+      <div className="relative bg-[#EEC04F] rounded-md px-[2rem] pb-[1.5rem] w-[320px] h-[30rem]">
         <div className="mx-auto translate-y-[-15px] w-max px-5 rounded-md py-1 top-[-1rem] bg-[#F5F5F5] font-bold text-[#EEC04F] text-[12px]">
           Toko Besar
         </div>
@@ -194,15 +194,14 @@ const CardPricing = ({ items }) => {
           </ul>
         </div>
 
-        <div className="flex flex-col items-center mt-[20px]">
-          <p className="text-[12px] text-white">
-            *Domain gratis berlaku untuk pembelian paket berlangganan selama 12
-            bulan, tersedia dalam ekstensi .com dan .id
+        <div className="flex flex-col items-center mt-[105px]">
+          <h3 className="font-bold text-white">699.000 / bulan</h3>
+          <p className="text-[12px]">atau</p>
+          <p className="text-[12px]">
+            6.990.000 per tahun
+            <span className="text-red-600"> (hemat 2 bulan)</span>
           </p>
-          <h2 className="font-bold text-[18px] text-white mt-[12px]">
-            {" "}
-            Hubungi kami
-          </h2>
+
           <a
             href="http://wa.me/6285157220258"
             className="bg-transparent border border-white text-center py-[0.5rem] px-12 rounded-md mt-[15px] text-white font-bold text-[14px] whitespace-nowrap"
